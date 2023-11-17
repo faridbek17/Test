@@ -1,0 +1,70 @@
+.header {
+  font-family: "Montserrat", sans-serif;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    margin-right: 10px;
+  }
+
+  &__link {
+    margin-right: 50px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+
+    &-active {
+      color: #33caff;
+      border-bottom: 2px solid #33caff;
+      font-weight: 600;
+    }
+  }
+
+  &__icons {
+    padding-top: 5px;
+    margin-right: 40px;
+
+    &-icon {
+      width: 40px;
+      height: 30px;
+      cursor: pointer;
+    }
+
+    &-icon1 {
+      margin-right: 30px;
+    }
+  }
+
+  &__btn {
+    padding: 7px 11px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    background-color: #33caff;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__search {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-icon {
+      width: 32px;
+      height: 32px;
+      margin: 10px;
+      margin-right: 90px;
+    } 
+
+    p {
+      color: #878787;
+      font-size: 14px;
+    }
+  }
+}
